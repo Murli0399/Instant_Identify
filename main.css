@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(#57e4cd, #6e87f2);
+  height: 100vh;
+}
+
+.heading {
+  height: 60px;
+  font-size: 36px;
+  text-align: center;
+  font-weight: 700;
+  margin: 20px;
+  color: #4103a1;
+}
+
+#webcam-container {
+  text-align: center;
+}
+
+#label-container {
+  display: flex;
+  width: 50%;
+  margin: 20px auto;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+#label-container div {
+  color: #4103a1;
+  font-size: 20px;
+  padding: 5px;
+  background: #02ff18;
+  font-weight: 600;
+}
